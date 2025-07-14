@@ -569,8 +569,8 @@ main{
         }
         .buttons2{
           position: absolute;
-          bottom: 50px;
-          right: 50px;
+          bottom: 150px;
+          right: 150px;
           max-width: 530px;
           width: 100%;
           z-index: 10;
@@ -579,6 +579,8 @@ main{
           }
           @media (max-width: 1400px) {
             margin-top: 20px;
+            right: 50px;
+            bottom: 50px;
           }
           a{
             @include flex;
