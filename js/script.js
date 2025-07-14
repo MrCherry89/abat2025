@@ -12,30 +12,6 @@ $(document).ready(function () {
     speed: 800,
   });
 
-  $(".center-slider").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true,
-    centerMode: true,
-    centerPadding: '200px',
-    responsive: [
-      {
-        breakpoint: 1025,
-        settings: {
-          centerPadding: '60px',
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerPadding: '20px',
-        }
-      }
-    ]
-  });
-
   $(".info-slider").each(function () {
     const $slider = $(this);
     const $wrap = $slider.closest(".info-slider-wrap");
@@ -62,15 +38,6 @@ $(document).ready(function () {
     });
   });
 
-  $(".banner-slider").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true,
-    cssEase: "ease-in-out",
-    speed: 800,
-    fade: true,
-  });
 
   document.querySelectorAll('.tab-button').forEach(button => {
     button.addEventListener('click', () => {

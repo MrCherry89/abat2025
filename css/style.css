@@ -88,6 +88,10 @@ a:focus {
   }
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .leave-request-wrap {
   background: #3B0608;
   padding: 70px 0;
@@ -145,7 +149,6 @@ a:focus {
   .leave-request-wrap .leave-request .text-wrap h2 {
     font-size: 8vw;
     margin-bottom: 30px;
-    text-align: center;
   }
 }
 @media (max-width: 767px) {
@@ -169,7 +172,6 @@ a:focus {
 }
 @media (max-width: 1024px) {
   .leave-request-wrap .leave-request .text-wrap p {
-    text-align: center;
     margin-top: 0;
     font-size: 16px;
   }
@@ -350,7 +352,6 @@ a:focus {
   .location .wrapper .left-info h2 {
     font-size: 60px;
     margin-bottom: 20px;
-    text-align: center;
   }
 }
 @media (max-width: 767px) {
@@ -374,11 +375,6 @@ a:focus {
 @media (max-width: 1300px) {
   .location .wrapper .left-info .subtitle {
     font-size: 22px;
-  }
-}
-@media (max-width: 1024px) {
-  .location .wrapper .left-info .subtitle {
-    text-align: center;
   }
 }
 @media (max-width: 767px) {
@@ -839,6 +835,8 @@ a:focus {
 .planing-image {
   position: relative;
   z-index: 0;
+  padding-top: 40px;
+  background: #F7F4EF;
 }
 .planing-image .vector {
   position: absolute;
@@ -1692,6 +1690,9 @@ a:focus {
 }
 .bg-block .bg .info p b {
   color: white;
+}
+.bg-block.style2 {
+  padding-bottom: 40px;
 }
 .bg-block.style2 .bg .info {
   margin-right: auto;
